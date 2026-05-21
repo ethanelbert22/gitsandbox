@@ -12,3 +12,11 @@ def temp_converter_celsius(celsius):
 
 def temp_converter_fahrenheit(fahrenheit):
     return (fahrenheit - 32) * 5/9
+
+def vowel_count(s):
+    vowels = 'aeiouAEIOU'
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1
+    return count
